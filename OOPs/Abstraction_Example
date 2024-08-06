@@ -1,4 +1,5 @@
- abstract class demo
+//Abstraction 
+abstract class demo
  {
  }
  abstract void payment();
