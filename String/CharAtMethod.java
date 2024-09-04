@@ -12,5 +12,16 @@ public class Strings {
   for(int i=0; i<s4.length(); i++){
          System.out.println(s4.charAt(i));
   }
+
+   String email = "gvhkjnmn@kjkkjk";
+		 String userName = "";
+		for(int i=0; i<email.length(); i++) {
+		       if(email.charAt(i) == '@') {
+		        break;
+		       } else {
+		         userName += email.charAt(i);
+		       }
+		     }
+System.out.println(userName);
     }
 }
