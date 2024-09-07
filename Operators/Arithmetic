@@ -1,0 +1,17 @@
+Binary:      
+ +             ++ :pr
+ -             --
+ *
+ /
+ %
+
+ Unary:
+ incremeant:
+ ++ : preincreament => ++a
+      postincreament => a++
+
+decreament:
+-- : predecreament => --a
+      postdecreament => a++
+
+  
