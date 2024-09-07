@@ -1,0 +1,14 @@
+Operators
+&(and)
+
+|(or)
+
+^(XOR)  => 00=0, 11=0, 10=1
+
+~(complements)
+
+<<(left shift):
+    0101 => 1010
+    
+>>(right shift)
+     1010 => 0101
