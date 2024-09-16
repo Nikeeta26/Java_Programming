@@ -12,3 +12,17 @@ Operators
     
 >>(right shift)
      1010 => 0101
+
+
+
+Ex:
+  get no. of 3rd (position 2) of the no. n (n=0101);
+
+  bit mask : 1<<i
+  operation AND
+                    1. 1<<2 = 0100;
+
+                    2. 0100 + 0101
+
+                     = 0100
+            no. is 1.

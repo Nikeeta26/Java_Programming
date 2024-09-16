@@ -19,8 +19,8 @@ public class SpiralMatrix {
 
 
 	      System.out.println("The Spiral Order Matrix is : ");
+		  
 	      int rowStart = 0;
-
 	      int rowEnd = n-1;
 	      int colStart = 0;
 	      int colEnd = m-1;
