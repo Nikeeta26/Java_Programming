@@ -14,3 +14,6 @@ public static void printNo(int n){
         }
     }
 }
+
+
+
