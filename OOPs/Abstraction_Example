@@ -1,27 +1,56 @@
 //Abstraction 
+
+ Abstraction is a process of hiding the implementation
+details and showing only functionality to the user.
+
+ Another way, it shows only essential things to the user and
+hides the internal details.
+
+ We can achieve Abstraction by using ABSTRACT CLASS and
+INTERFACE.
+
+ EX. Sms ,ATM, Cell phone.
+
+
+ An abstract class must be declared with an abstract keyword.
+ It can have abstract and non-abstract methods.
+ It cannot be instantiated.
+ It can have constructors and static methods also.
+ It can have final methods
+
+
 abstract class demo
  {
- }
+ 
  abstract void payment();
+
+ }
+
  class wallet extends demo{
  void payment() 
 {
  System.out.println("Wallet payment success");
  }
+
  }
+
  class netbanking extends demo{
  void payment()
  {
  System.out.println("Netbanking payment success");
  }
  }
-class AbstractionExaomple1.java
+
+class AbstractionExaomple1
  { 
 public static void main(String args[])
  {  
+    
 wallet w=new wallet();
  w.payment();
+
  netbanking n=new netbanking();
  n.payment();
+
  }  
 }

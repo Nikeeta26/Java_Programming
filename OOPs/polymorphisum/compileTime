@@ -1,0 +1,17 @@
+If a class has multiple methods having same name but different in
+parameters, it is known as Method Overloading
+
+               2 ways (sameclass)
+
+By changing number of             By changing the data
+arguments                           Type
+
+
+Method Overloading is notpossible by changing the return type of the method only
+
+Class Demo{
+int sum(int a , int b){ return a;}
+
+int sum(float c , int d){ return c;}
+
+}

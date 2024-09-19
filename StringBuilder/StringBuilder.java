@@ -23,8 +23,8 @@ public class StringBui {
 		    sb.delete(2,4);
 
 		    //append 
-//		    sb.append("n");
-//		     sb.append("n");
+		    sb.append("n");
+		     sb.append("n");
 		    
 		    System.out.println(sb);
 

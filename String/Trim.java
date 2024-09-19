@@ -9,6 +9,7 @@ public class Trim {
   Scanner sc = new Scanner(System.in);
   String s4 = sc.nextLine();
   System.out.println(s4.trim());
+  
     System.out.println(s3.strip());
 	}
 

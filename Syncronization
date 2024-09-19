@@ -1,0 +1,66 @@
+ Java Synchronization is better option where we want to allow only one thread to access the shared
+resource.
+
+For example, if multiple threads try to write within a same file then they may corrupt the data because one of
+the threads can override data or while one thread is opening the same file at the same time another thread might be closing the same file.
+
+ Synchronization is built around an internal entity known as the lock or monitor. Every object has an lock
+associated with it.
+
+class demo
+{
+  synchronized void show(int n)
+    {
+     for(int i=1;i<=5;i++)
+    {
+    System.out.println(n*i);
+
+     try
+    {
+      Thread.sleep(400);
+    }
+    catch(Exception e)
+        {
+          System.out.println(e);
+        }
+    }
+}
+}
+
+class MyThread1 extends Thread
+{
+demo d;
+    MyThread1(demo d)
+    {
+       this.d=d;
+    }
+public void run()
+ {
+   d.show(5);
+ }
+} 
+
+class MyThread2 extends Thread
+{
+  demo d;
+  MyThread2(demo d)
+    {
+      this.d=d;
+    }
+public void run()
+{
+  d.show(100);
+}
+}
+
+public class sample
+{
+public static void main(String args[])
+{
+    demo d1 = new demo();
+    MyThread1 t1=new MyThread1(d1);
+    MyThread2 t2=new MyThread2(d1);
+    t1.start();
+    t2.start();
+}
+}

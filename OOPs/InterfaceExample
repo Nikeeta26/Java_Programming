@@ -1,0 +1,24 @@
+ The interface in Java is a mechanism to achieve abstraction
+ There can be only abstract methods in the Java interface, not method body.
+ Used to achieve abstraction and multiple inheritance
+ Java Interface also represents the IS-A relationship.
+
+ It is used to achieve abstraction.
+ By interface, we can support the functionality of multiple inheritance.
+
+interface test
+{
+    abstract void payment();
+}
+class sample implements InterfaceExample
+{
+    public vois payment(){
+        System.out.println("this is interface");
+    }
+
+public static void main(String args[])
+    {
+    sample s = new sample();
+    s.payment();
+    }
+}
