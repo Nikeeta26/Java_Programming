@@ -3,7 +3,7 @@
 public class PrintNo {
 
 public static void printNo(int n){
-    
+    printNo(n);
 }
 
 	public static void main(String[] args) {
