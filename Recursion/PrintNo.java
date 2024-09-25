@@ -3,15 +3,19 @@
 public class PrintNo {
 
 public static void printNo(int n){
-    printNo(n);
+   
+    if(n == 6){
+        return;
+    }
+       System.out.println(n);
+        printNo(n+1);
+    
+   
 }
 
 	public static void main(String[] args) {
-		
-        for(int i=5; i>0; i--){
-           System.out.println(i);
-
-        }
+		int n = 1;
+       printNo(1);
     }
 }
 
