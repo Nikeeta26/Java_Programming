@@ -6,7 +6,7 @@ public class InsertionSort {
 		// TODO Auto-generated method stub
 		
         /*  first arr convert into two part like
-           7 3 4 5 3 1 
+           7 8 4 5 3 1 
            7                 8 4 5 3 1
          sorted part             unsorted part
 
