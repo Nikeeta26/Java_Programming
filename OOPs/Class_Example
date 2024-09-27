@@ -1,3 +1,6 @@
+// every class in java extends object class
+
+
 package JavaClass;
 
 class Student{

@@ -6,6 +6,11 @@
  It is used to achieve abstraction.
  By interface, we can support the functionality of multiple inheritance.
 
+
+
+
+
+
 interface test
 {
     abstract void payment();
@@ -22,3 +27,32 @@ public static void main(String args[])
     s.payment();
     }
 }
+
+
+// second ex
+
+interface test{
+	 void show();
+}
+interface ok extends test{
+	void test(); 
+}
+public class Interface implements ok {
+	public void show() {
+		System.out.println("test interface");
+	}
+	
+	public void test() {
+		// TODO Auto-generated method stub
+		System.out.println("ok method ");
+	}  
+	
+	public static void main(String args[])
+	{
+		ok a = new Interface();
+		a.show();
+		a.test();
+		
+	}
+}
+
