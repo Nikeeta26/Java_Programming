@@ -7,7 +7,7 @@ public class PrintNo {
            return;
         }
         fact *= i;
-       PrintSum(i+1, n, sum);
+       PrintSum(i+1, n, fact);
     }
        
 //        if(n == 1) {
