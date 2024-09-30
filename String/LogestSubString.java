@@ -28,6 +28,34 @@ public class LogestSubString {
 		// TODO Auto-generated method stub
 String s = "nikeeta";
 System.out.println(longestSubstring(s));
+
+   /**********************   or   ******************************/  
+
+            String s = "nikeeta";
+         
+         char[] c = s.toCharArray();
+         
+         LinkedHashSet<Character> h = new LinkedHashSet<>();
+         
+         for(int i=0; i<s.length(); i++) {
+       	  
+       	  char p = c[i];
+       	  
+       	  if(!h.contains(p)) {
+       		  h.add(p);
+       	  }
+         }
+         
+         System.out.println(h);
+         
+         Iterator<Character> i = h.iterator();
+         
+        while(i.hasNext()) {
+       	 String m = i.next().toString();
+       	 System.out.print(m);
+        }
+
+
 	}
 
 }

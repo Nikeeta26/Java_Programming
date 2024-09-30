@@ -3,15 +3,19 @@ package nikeeta;
 public class MissingNo {
 
 	 public static void findMissingNumbers(int[] arr, int max) {  
-	        for (int i = 1; i <= max; i++) {  
-	            boolean found = false;  
-	            for (int num : arr) {  
-	                if (num == i) {  
-	                    found = true;  
-	                    break;  
-	                }  
-	            }  
-	            if (!found) {  
+		for (int i = 1; i <= max; i++) {  
+			boolean found = true;  
+		   // for (int num : arr) {  
+			for(int num = 0; num<arr.length; num++)
+			{
+				//if(num === i) {
+				
+				if (arr[num] == i) {  
+					found = false;  
+					break;  
+				}  
+			}  
+			if (found) {  
 	            	
 	                System.out.print(i + " ");  
 	                
