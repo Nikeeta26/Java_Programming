@@ -7,6 +7,19 @@
  HashMap and LinkedHashMap allow null keys and values, but TreeMap doesn't allow
 any null key or value.
 
+
+                                   Map
+                                    |
+                                    |
+                                    
+    HashMap          LinkedHashMap         SortedMap     HashTable
+                                              |
+                                              |
+                                            TreeMap
+
+
+
+
 import java.util.*;
 public class sample
 {

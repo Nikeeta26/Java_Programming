@@ -8,6 +8,17 @@ import java.util.*;
 
  The List interface is found in the java.util package and inherits the Collection interface.
 
+              list 
+                |
+                |
+   ArrayList   LinkedList   Vector
+                              |
+                              |
+                            Stack
+
+
+
+
 public class sample
 {
 public static void main(String args[])

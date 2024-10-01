@@ -1,0 +1,7 @@
+                 Queue(fifo)
+                   | 
+                   |
+    PriorityQueue       LinkedList            Dequeue(Interface)
+                                                       |
+                                                       |
+                                                    ArrayDueue

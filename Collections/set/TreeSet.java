@@ -8,6 +8,14 @@ uses a Tree for storage.
  TreeSet class doesn't allow null element.
  TreeSet class maintains ascending order
 
+        
+    SortedSet
+       |
+       |
+    TreeSet
+
+
+
 import java.util.*;
 public class sample
 {
