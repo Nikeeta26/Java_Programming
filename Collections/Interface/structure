@@ -1,0 +1,23 @@
+          Iterable
+              |
+              |
+         Collection
+            |
+            |
+ List      Queue      set
+
+
+
+ method of Collections
+
+ add
+ size 
+ remove
+ iterate
+ addAll
+ removeAll
+ clear
+ 
+
+ Collections.sort();
+ Collections.reverse();

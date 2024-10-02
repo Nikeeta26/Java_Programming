@@ -7,6 +7,7 @@
  Hashtable class contains unique elements.
  Hashtable class doesn't allow null key or value.
 
+
 import java.util.*;
 public class sample
 {
@@ -20,5 +21,6 @@ ht.put(40,"Pqr");
 for(Map.Entry m:ht.entrySet())
 {
 System.out.println(m.getKey()+" "+m.getValue());
+}
 }
 }

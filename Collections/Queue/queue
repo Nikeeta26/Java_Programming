@@ -5,3 +5,29 @@
                                                        |
                                                        |
                                                     ArrayDueue
+
+FIFO Structure: Queues process elements in the order they are added, useful for task scheduling and request handling.
+
+Key Implementations: LinkedList, PriorityQueue, and ArrayDeque offer different queue behaviors like FIFO, priority-based, and double-ended operations.
+
+Concurrency: BlockingQueue helps safely manage data between threads, with blocking and non-blocking methods like offer() and poll().
+
+Efficient Operations: O(1) insertion and removal, critical for performance-sensitive tasks.
+Graph Algorithms: Used in BFS and similar algorithms for level-by-level exploration.
+
+Task Scheduling: Widely applied in task queues, event handling, and real-time systems.
+Memory Efficiency: ArrayDeque is more memory-efficient compared to LinkedList.
+                                               
+-- first index is Front
+    and last index is Rear
+
+-- insert elements from Rear and delete from Front.
+
+Enqueue = add
+Dequeue  = Remove(remove)
+front    = peek (get element but not remove )
+
+O(1) add     |
+O(n) remove  |  --- for array
+O(n)  peek   |
+
