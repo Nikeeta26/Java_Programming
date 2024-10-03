@@ -6,6 +6,8 @@
  HashMap may have one null key and multiple null values.
  HashMap maintains no order.
 
+internaly build array od linkedList
+
 import java.util.*;
 public class sample
 {
@@ -20,5 +22,6 @@ for(Map.Entry m : map.entrySet())
 {
 System.out.println(m.getKey()+" "+m.getValue());
 }
+System.out.println(map.keySet());
 }
 }

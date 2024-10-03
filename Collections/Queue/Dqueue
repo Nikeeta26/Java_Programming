@@ -1,0 +1,29 @@
+Deque (Double-Ended Queue):
+A deque (double-ended queue) is a generalized version of a queue where
+elements can be added or removed from both the front and the rear.
+
+It does not follow a strict FIFO principle because it allows both enqueue 
+and dequeue operations from either end.
+
+Deque can be used as both a queue (FIFO) and a stack (LIFO), offering more flexibility.
+
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class DequeExample {
+    public static void main(String[] args) {
+        Deque<Integer> deque = new ArrayDeque<>();
+
+        deque.offerFirst(10); // Add to front
+        deque.offerLast(20);  // Add to rear
+        deque.offerFirst(5);  // Add to front
+
+        System.out.println("Deque: " + deque);
+
+        deque.pollFirst();    // Remove from front
+        deque.pollLast();     // Remove from rear
+
+        System.out.println("Deque after removal: " + deque);
+    }
+}

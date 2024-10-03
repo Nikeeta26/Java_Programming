@@ -11,6 +11,16 @@ code
  HashSet doesn't maintain the insertion order.
  HashSet is the best approach for search operations
 
+insert:O(1);
+delete:O(1);
+search:O(1);
+
+add();
+remove();
+contains();
+size();
+
+
 import java.util.*;
 public class sample
 {

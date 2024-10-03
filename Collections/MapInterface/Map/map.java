@@ -18,7 +18,13 @@ any null key or value.
                                             TreeMap
 
 
-
+Put();
+containsKey();
+get(); // pass key. if key not present it return null
+getKey();
+getValue();
+remove();
+keySet();
 
 import java.util.*;
 public class sample
@@ -29,6 +35,7 @@ Map<Integer,String> map=new HashMap<Integer,String>();
 map.put(101,"Abc");
 map.put(102,"Lmn");
 map.put(103,"Pqr");
+
 for(Map.Entry m:map.entrySet())
 {
 System.out.println(m.getKey()+" "+m.getValue());

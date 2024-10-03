@@ -31,3 +31,19 @@ O(1) add     |
 O(n) remove  |  --- for array
 O(n)  peek   |
 
+public class DequeExample {
+    public static void main(String[] args) {
+
+ Queue<Integer> q = new ArrayDeque<>();
+	        
+	        q.add(1);
+	        q.add(4);
+	        q.add(8);
+	        q.add(9);
+	        System.out.println(q);
+          System.out.println(q);
+	        
+	        q.poll();
+	        System.out.println(q.peek());
+    }
+}

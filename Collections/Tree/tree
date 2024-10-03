@@ -1,0 +1,12 @@
+-Ancestore : means all parent node
+
+Traversal :
+           preorder: parent->left->right
+    
+           Inorder : left->parent->right
+
+           Postorder : left->right->parent
+
+           LevelOrder  : levelWise   (is BFS)  O(n)
+
+    pre,post and inorder is DFS

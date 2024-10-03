@@ -7,10 +7,6 @@
  By interface, we can support the functionality of multiple inheritance.
 
 
-
-
-
-
 interface test
 {
     abstract void payment();
