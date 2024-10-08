@@ -13,8 +13,7 @@ public class CreateQueueUsingStack {
           return s1.isEmpty();
       }
 
-
-      public static void add(int data) {
+ public static void add(int data) {
           while(!s1.isEmpty()) {
               s2.push(s1.pop());
           }
