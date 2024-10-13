@@ -35,6 +35,7 @@ public class ProductOfArray {
 	                }
 	            }
 	        }
+			
 	        for(int i : prod) {
 	        	 System.out.println(i);
 	        }
