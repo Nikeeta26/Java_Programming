@@ -12,6 +12,7 @@ public class BinaryTreesYT {
         }
     }
  
+    
  
     static class BinaryTree {
         static int idx = -1;
@@ -26,7 +27,7 @@ public class BinaryTreesYT {
             return newNode;
         }
 
-        public static void preorder(Node root) {
+        public static void preorder(Node root) { // time complexcity O(n)
             if(root == null) {
                 System.out.print(-1+" ");
                 return;
@@ -36,7 +37,7 @@ public class BinaryTreesYT {
             preorder(root.right);
         }
 
-        public static void inorder(Node root) {
+        public static void inorder(Node root) { 
             if(root == null) {
                 System.out.print(-1+" ");
                 return;
@@ -57,7 +58,7 @@ public class BinaryTreesYT {
         }
      
     }
- 
+
  
     public static void main(String args[]) {
         int nodes[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
