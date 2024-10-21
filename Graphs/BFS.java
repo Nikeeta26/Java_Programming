@@ -61,7 +61,6 @@ public class Graphs {
     }
 		
     	System.out.println();
-    	
     }
     public static void main(String[] args) {
         int v = 7;
