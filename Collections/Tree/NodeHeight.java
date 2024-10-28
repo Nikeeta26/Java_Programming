@@ -78,12 +78,13 @@ public class NodeLevel {
         NodeInfo right = Dimeter(root.right);
 
         int height = Math.max(left.ht, right.ht) + 1;
-        int leftdi = left.di;
-        int rightdi = right.di;
+//        int leftdi = left.di;
+//        int rightdi = right.di;
+        int di = Math.max(left.di, right.di);
         int d3 = left.ht + right.ht + 1;
 
-        int myDim = Math.max(Math.max(leftdi, rightdi), d3);
-
+//        int myDim = Math.max(Math.max(leftdi, rightdi), d3);
+        int myDim = Math.max(di,d3);
         return new NodeInfo(myDim, height);
     }
 
