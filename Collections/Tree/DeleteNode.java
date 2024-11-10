@@ -1,6 +1,6 @@
-  leaf node
+  /* leaf node
   no clild 
-  two children
+  two children */
 
   package nikeeta;
 
