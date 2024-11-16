@@ -55,10 +55,8 @@ public class NodeLevel {
     	int d3 = CountLevel(root.left)+CountLevel(root.right)+1;
     	
     	return Math.max(d3,  Math.max(right, left));
-    	
-    	
+    		
     }
-
 
     static class NodeInfo {
         int di;
