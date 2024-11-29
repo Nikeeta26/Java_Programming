@@ -1,0 +1,28 @@
+package nikeeta;
+
+public class GCDofString {
+
+	    public static String gcdofString(String str1,String str2){
+	        if(!(str1+str2 ).equals(str2+str1)){
+	        	System.out.println("not equal");
+	            return "";
+	        }
+
+	        int gstlength = gcd(str1.length(),str2.length());
+
+	        return str1.substring(0,gstlength);
+	    }
+
+	     static int gcd(int a, int b) {
+	        return b == 0 ? a : gcd(b, a % b);
+	    }
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "abab";
+		String str2 = "abc";
+		System.out.println( gcdofString(str1, str2));
+	}
+
+}
