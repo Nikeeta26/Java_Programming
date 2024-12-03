@@ -4,6 +4,7 @@ class Solution {
         int read = 0;  // Pointer for reading characters
 
         while (read < chars.length) {
+            
             char currentChar = chars[read];
             int count = 0;
 
