@@ -23,7 +23,7 @@ public class UnionOFArray {
     	if(set.contains(arr2[a])) {
     		System.out.print(arr2[a]+" "+" ");
     	}
-		set.add(arr2[a]);
+		//set.add(arr2[a]);
 	
 	
 }

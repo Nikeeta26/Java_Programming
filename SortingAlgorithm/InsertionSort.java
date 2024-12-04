@@ -18,11 +18,11 @@ public class InsertionSort {
             int current = arr[i];
             int j = i-1;
             while(j>=0 && current<arr[j] ){
-                arr[j+1] = arr[j];
-                j--;
+                arr[j+1] = arr[j];// ex 1 index = 5
+                j--; // -1 
             }
 
-            arr[j+1] = current;
+            arr[j+1] = current;  // 0 = 3
         }
 
         for(int i : arr){

@@ -25,7 +25,7 @@ public class BinaryTree {
 			ind++;
 			if(nodes[ind] == -1) {
 				return null;
-				
+								
 			}
 			
 			Node newNode = new Node(nodes[ind]);
