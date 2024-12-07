@@ -1,10 +1,9 @@
 class Solution {
-    public int compress(char[] chars) {
+    public static int compress(char[] chars) {
         int write = 0; // Pointer for writing compressed characters
         int read = 0;  // Pointer for reading characters
 
         while (read < chars.length) {
-            
             char currentChar = chars[read];
             int count = 0;
 
@@ -26,5 +25,11 @@ class Solution {
         }
 
         return write;
+    }
+    public static void main(String str[]){
+           char[] arr = {'a', 'a', 'b', 'b', 'c', 'c', 'c'};
+        int c = compress(arr);
+      System.out.println(c);
+
     }
 }

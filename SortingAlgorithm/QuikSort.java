@@ -24,13 +24,13 @@ public class QuikSort {
 				i++; //track small elements
 				
 				//swap
-				int temp = arr[i];
-				arr[i]   = arr[j];
+				int temp = arr[i];     
+				arr[i]   = arr[j];    
 				arr[j]   = temp;   // add elements
 				
 			}
 		}
-		
+		 
 		//create index for pivot element
 		i++; 
 		//swap pivot elements
@@ -38,8 +38,7 @@ public class QuikSort {
 		arr[i]  = pivot; 
 		arr[h]  = temp; // add element
 		return i;//pivot index
-		
-		
+				
 	}
 	
 public static void quick(int arr[], int l, int h) {
