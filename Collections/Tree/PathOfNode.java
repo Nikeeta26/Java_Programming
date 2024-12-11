@@ -49,7 +49,7 @@ public class PathOfNode {
 			PrintPath(root.left, path);
 			PrintPath(root.right, path);
 		}
-		
+	      	
 		path.remove(path.size()-1);
 	}
 	
