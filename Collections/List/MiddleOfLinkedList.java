@@ -12,6 +12,8 @@ public class MiddleOfLinkedList {
 	        linkedList.add(3);
 	        linkedList.add(4);
 	        linkedList.add(5);
+	        linkedList.add(5);
+	        
 	        // linkedList.add(6); // Uncomment to test even number of nodes
 
 	        // Find and print the middle element
@@ -21,6 +23,9 @@ public class MiddleOfLinkedList {
 	        } else {
 	            System.out.println("The linked list is empty.");
 	        }
+	        boolean s = linkedList.remove(middleElement);
+	        System.out.println(linkedList);
+	       
 	    }
 
 	    public static Integer findMiddle(LinkedList<Integer> linkedList) {
