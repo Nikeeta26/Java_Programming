@@ -28,5 +28,7 @@ public class Greatest_Number_ofCandies {
 		int candies[] = {2, 3, 4, 5, 3};
 		int extract = 2;
 		System.out.println(getValue(candies, extract));
+
+		//[false, true, true, true, true]
 	}
 }
