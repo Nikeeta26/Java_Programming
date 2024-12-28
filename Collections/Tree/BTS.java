@@ -1,5 +1,5 @@
 package nikeeta;
-
+// Binary Search Tree.
 public class BTS {
 
 	public static class Node{
