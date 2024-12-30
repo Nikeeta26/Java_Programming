@@ -57,7 +57,6 @@ public class SerchNode {
 			return search(root.right, key);
 		}
 		
-		
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
