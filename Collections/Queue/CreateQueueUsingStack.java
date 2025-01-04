@@ -1,5 +1,4 @@
 package nikeeta;
-
 import java.util.Stack;
 
 public class CreateQueueUsingStack {
