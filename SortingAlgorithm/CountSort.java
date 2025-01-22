@@ -19,14 +19,15 @@ package nikeeta;
 	            countArray[inputArray[i]]++;
 	        }
 
-
-			//countArray = [0, 1, 1, 3, 4, 6, 6, 6, 6, 7, 7, 7, 8];
+            //countArray = [0, 1, 1, 3, 4, 6, 6, 6, 6, 7, 7, 7, 8]
 			
 	        for (int i = 1; i <= M; i++) {
 	            countArray[i] += countArray[i - 1];
 	        }
 
 	        int[] outputArray = new int[N];
+
+			// outputArray = [1, 3, 3, 4, 5, 5, 9, 12]
 
 	        for (int i = N - 1; i >= 0; i--) {
 	            outputArray[countArray[inputArray[i]] - 1] = inputArray[i];
