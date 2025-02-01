@@ -35,7 +35,7 @@ public class Main {
         for (int i = 0; i < n; i++) {
             insertionSort(buckets[i]);
         }
-
+                                
         // 4) Concatenate all buckets into arr[]
         int index = 0;
         for (int i = 0; i < n; i++) {
@@ -44,7 +44,7 @@ public class Main {
             }
         }
     }
-
+                     
     // Driver program to test above function
     public static void main(String[] args) {
         float[] arr = {0.897f, 0.565f, 0.656f, 0.1234f, 0.665f, 0.3434f};
