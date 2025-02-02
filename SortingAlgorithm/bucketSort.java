@@ -27,7 +27,7 @@ public class Main {
 
         // 2) Put array elements in different buckets
         for (int i = 0; i < n; i++) {
-            int bi = (int) (n * arr[i]);
+            int bi = (int) (n * arr[i]);// create index
             buckets[bi].add(arr[i]);
         }
 
