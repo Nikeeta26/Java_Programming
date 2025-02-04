@@ -2,7 +2,6 @@ package nikeeta;
 
 public class FirstNonRepeting {
 
-
 	    // Function to find the index of the first 
 	    // non-repeating character
 	    static char nonRepeatingChar(String s) {
