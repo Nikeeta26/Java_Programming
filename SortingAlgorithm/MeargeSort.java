@@ -3,7 +3,7 @@ package nikeeta;
 
 //O(nlogn)
 
-public class MeargeSord {
+public class MeargeSort {
 	public static void conquer(int arr[], int s,int mid, int e) {
 		//o(n)
 		
